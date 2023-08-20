@@ -8,15 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b59fd8d7d0d6be78",
+            "id": "c7021b85fe6690d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "testing auto commit.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "c7021b85fe6690d4",
+            "id": "77e7454f15920992",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lock-Free.md",
+                "file": "testing auto commit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lock-Free.md",
+                "file": "testing auto commit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,16 +137,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lock-Free.md"
+                "file": "testing auto commit.md"
               }
             }
+          },
+          {
+            "id": "eeaaa33ffb02b500",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,7 +168,8 @@
   },
   "active": "c7021b85fe6690d4",
   "lastOpenFiles": [
+    "Lock-Free.md",
     "Wait-free.md",
-    "Lock-Free.md"
+    "testing auto commit.md"
   ]
 }
