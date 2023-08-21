@@ -1,0 +1,1 @@
+the amount of time the [[scheduler]] allows a thread to run before scheduling a different thread.
