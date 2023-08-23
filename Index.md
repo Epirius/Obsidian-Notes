@@ -1,5 +1,0 @@
-[[Algorithmic tools]]
-
-
-
-#index 
