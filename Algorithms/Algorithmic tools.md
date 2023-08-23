@@ -4,7 +4,7 @@
 [[dynamic programming]]
 
 
-## Advanced dsa
+## Advanced [[data structures]] and [[Algorithm|algorithms]]
 [[flow and matching]]
 [[minimum spanning tree]]
 [[subset sum]]

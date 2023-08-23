@@ -1,4 +1,4 @@
-a stable matching algorithm is an algorithm that match to sets, where each item in each set has a preference list for who they want to match with in the opposite set.
+a stable matching algorithm is an [[Algorithm]] that match to sets, where each item in each set has a preference list for who they want to match with in the opposite set.
 
 for example a set of men and a set of women who each has a preference for who they want to match with of the opposite sex.
 
