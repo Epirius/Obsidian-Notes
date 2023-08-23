@@ -88,15 +88,35 @@ claim: G-S outputs a matching
 	-> M is a matching
 
 claim: The matching is perfect
-proof (proof by contradiction):
-	Assuming that M is not perfect, 
-	then there exists a h or s not in M.
-	|H| = |S|, so some h not in M if and only if some s not in M.
-	There are h and s not in m.
-	s was not proposed to. (Observation 2)
-	The algorithm terminated with h unmatched,
-	hence h proposed to all students (Observation 3)
-	h proposed to s.
-	h did not propose to s.
-	contradiction
+proof (by contradiction):
+	- Assuming that M is not perfect, 
+	-> then there exists a h or s not in M.
+	- |H| = |S|, so some h not in M if and only if some s not in M.
+	-> There are h AND s not in m.
+	-> s was not proposed to. (Observation 2)
+	- The algorithm terminated with h unmatched,
+	-> hence h proposed to all students (Observation 3)
+	contradiction!
+	=> M is perfect
+
+claim: M has no unstable pair.
+Proof (by contradiction):
+	- Assume M has an unstable pair
+	- let (h,s) be unstable, ie. (h,s) is not in M. (s > h > s') (h > s > h')
+	- either:
+		1. h never proposed to s
+		2. h proposed to s, who rejected
+		3. h was matched with s, but got unmatched
+	-----
+		1. by observation 1. h proposed to s before s'
+		2. if s rejected, then s was matched with some hospital h'' with (h'' > s > h)
+		- by observation 2, h' > h'' and h > h'. CONTRADICTION!
+		3. Very similar to case 2 (ran out of time)
+	-> none of these are true. CONTRADICTION!
+	-> the assumption that M has an unstable pair is false
+	=> M is stable
+
+THEREFORE: G-S outputs a perfect stable matching in time O(n^2)
+COROLLERY: every input has a stable perfect matching
 ```
+
