@@ -32,3 +32,71 @@ Input: Sets S, H, with preference relations for all s and h
 Output: A stable, perfect matching M.
 
 -----
+
+
+### Brute force implementation
+```
+runtime: n! * n^2
+
+fix one of the sets and try all combinations of pairs to the other set (n!)
+and then check for stability (n^2)
+```
+
+
+### Gale-Shapley algorithm
+```
+runtime: n^2
+
+Initially nobody is matched.
+while some h ∈ H is unmatched and h has not proposed to all s ∈ S 
+	h proposes to its highest ranked s that h has not yet proposed to.
+	
+	if s is unmatched:
+		add (h,s) to M
+	else if s is matched with h' and h > s > h'
+		then replace (h',s) with (h,s)
+	else 
+		s rejects h.
+
+```
+
+we have to show:
+1. Algorithm terminates
+2. Outputs a perfect matching
+3. The matching is stable
+
+Observations:
+1. Hospitals propose in descending order.
+2. Once a student is matched, it does not get unmatched.
+3. If a hospital is unmatched when the algo terminates, the hospital proposed to all students.
+
+
+```
+Proposition: G-S terminates after at most n^2 iterations
+
+Proof: 
+	let p(t) be the number of propositions (n,s) after iteration t.
+	note that p(t+1) > p(t).
+	there are only n^2 many pairs (h * s). 
+		hence p() only increases at most n^2 times
+
+claim: G-S outputs a matching
+	a hospital proposes only if it is unmatched.
+	hence h has <= 1 students.
+	in each iteration a student only keeps its best hospital.
+	hence s is only assigned <= 1 hospital
+	-> M is a matching
+
+claim: The matching is perfect
+proof (proof by contradiction):
+	Assuming that M is not perfect, 
+	then there exists a h or s not in M.
+	|H| = |S|, so some h not in M if and only if some s not in M.
+	There are h and s not in m.
+	s was not proposed to. (Observation 2)
+	The algorithm terminated with h unmatched,
+	hence h proposed to all students (Observation 3)
+	h proposed to s.
+	h did not propose to s.
+	contradiction
+```
