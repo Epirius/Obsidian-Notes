@@ -120,3 +120,37 @@ THEREFORE: G-S outputs a perfect stable matching in time O(n^2)
 COROLLERY: every input has a stable perfect matching
 ```
 
+
+
+
+
+
+
+## Exercises
+### 1
+> True or false? In every instance of the Stable Matching Problem, there is a stable matching containing a pair (m, w) such that m is ranked first on the preference list of w and w is ranked first on the preference list of m.
+
+```
+h1 -> s1 s2 s3
+h2 -> s2 s3 s1
+h3 -> s3 s1 s2
+
+s1 -> h2 h3 h1
+s2 -> h3 h1 h2
+s3 -> h1 h2 h3
+
+h1 - s1
+h2 - s2
+h3 - s3
+
+No there does not need to be a stable matching pair where both have the other as their first choice.
+If both hospitals and students have a preference ring where h'n perfers s'n and each s'n perfers h'n+1 then each hospital will get its first choice of student and none of the students will get its perferd choice.
+
+```
+
+### 2
+> True or false? Consider an instance of the Stable Matching Problem in which there exists a man m and a woman w such that m is ranked first on the preference list of w and w is ranked first on the preference list of m. Then in every stable matching S for this instance, the pair (m, w) belongs to S.
+
+```
+Yes if both h1 and s1 perfer each other first then they will end up as a pair because h1 will always propose to s1 first, and s1 will switch to h1 if they already have a match with h'n.
+```
