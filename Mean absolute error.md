@@ -1,0 +1,1 @@
+in MAE you want the total summed error to be small
