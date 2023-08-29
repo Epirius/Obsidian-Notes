@@ -28,12 +28,12 @@ Big Omega lower bounds the given function
 Big theta is a combination of Big O and Big Omega
 
 
-sum
+sum (+)
 - O(n)
 - Ω(n)
 - Θ(n)
 
-product
+product (x)
 - O(n^2)
 - Ω(n)
 - Θ(?)
