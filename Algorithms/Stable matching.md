@@ -46,6 +46,8 @@ and then check for stability (n^2)
 ### Gale-Shapley algorithm
 ```
 runtime: n^2
+the runtime is linear in the size of the input
+input size: O(|h| + |s| + |h|^2 + |s|^2)
 
 Initially nobody is matched.
 while some h ∈ H is unmatched and h has not proposed to all s ∈ S 
@@ -120,12 +122,36 @@ THEREFORE: G-S outputs a perfect stable matching in time O(n^2)
 COROLLERY: every input has a stable perfect matching
 ```
 
+-----
+### Lemma: The G-S algorithm always outputs the same matching.
+definition: 
+- let h ∈ H, we say that s is a valid partner of h if there exists a stable matching (h,s) ∈ M
+- the best valid partner of h is the valid partner that h prefers most. since this is unique, we denote by best(h)=s the best valid partner.
+
+let M* = { (h, best(h)) for h ∈ H}
 
 
+Lemma: G-S will always output M*
+#### Proof (by contradiction):
+- suppose that some execution E of G-S outputs a matching with some (h^, s^) where s^ != best(h^)
+- Observation: some hospital is rejected by a valid partner
+	- s^ is not h^ preferd candidate.
+	- h^ proposed to best(h^) before s^
+- let h be **the first** hospital to be rejected by a valid partner in E, let s be the reject-er.
+- s rejects h because s is matched with h'.  (h' > s > h)
+- since s is a valid partner of h, there exists some stable matching M' with (h, s).
+	- M' :
+		- (h, s)
+		- (h', s')
+	- s > h' > s'
+- contradiction: M' is a stable matching, but h' prefers s over s' and s prefers h' over h.
+	- there is an unstable pair (h', s), therefore the assumption leads to a contradiction, so the lemma must be true.
 
 
+Every hospital is matched with its best valid student, but every student is matched with its worst valid hospital
+- M* = { (worst(s), s) for s ∈ S }
 
-
+-----
 ## Exercises
 ### 1
 > True or false? In every instance of the Stable Matching Problem, there is a stable matching containing a pair (m, w) such that m is ranked first on the preference list of w and w is ranked first on the preference list of m.
