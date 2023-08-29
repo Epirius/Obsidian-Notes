@@ -1,1 +1,3 @@
 when two threads use a variable in java, each thread has its own cpu cache that it reads from and write to. so there is the possibility that the cpu cache and the main memory are out of sync. therefore thread 2 might not be able to read the latest value, because it is only updated at thread 1's cpu cache.
+
+volatile variables force the thread to write straight to the shared memory instead of to the cache
