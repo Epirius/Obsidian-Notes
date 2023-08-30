@@ -1,5 +1,5 @@
 [[graph traversal]]
-[[greedy algorithms]]
+[[Greedy algorithms]]
 [[divide and conquer]]
 [[dynamic programming]]
 
