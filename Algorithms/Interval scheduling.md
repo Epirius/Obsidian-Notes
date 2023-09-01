@@ -1,9 +1,3 @@
-as long as you are allowed to take another action, you take the action that looks the best.
-
-
-
-### Interval scheduling
-
 ```
 Input: I = { I1, I2, I3 ... }
 Output: a maximum set S ∈ I of pairwise non-overlapping intervals
