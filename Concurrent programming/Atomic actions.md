@@ -20,3 +20,7 @@
 
 atomic statements are expensive in terms of performance. the compiler has to do a lot of work.
 so you should minimize the parts of the code that need to be atomic
+
+-----
+### Fine-grained atomic actions
+- implemented directly by the hardware on which a concurrent program executes
