@@ -52,5 +52,21 @@ a tree where every branch node is a boolean check, and each leaf node is a resul
 	- equivalently, decrease in entropy after splitting
 
 
-## Example
+## Algorithms
 - [[ID3 algorithm]]
+
+
+
+-------
+
+### Properties
+#### pros
+- fast (both learning and prediction)
+- easy to interpret
+- invariant to scaling
+- can handle both categorical and continuous data
+- implicit feature collections
+#### cons
+- unstable
+	- due to greedy learning, small differences in training data result in totally different trees
+- usually competitive accuracy only in an ensemble
