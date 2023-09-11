@@ -1,0 +1,1 @@
+A state in which two or more processes are waiting for each other, in a so-called deadly embrace.

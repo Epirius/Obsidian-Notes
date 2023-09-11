@@ -15,7 +15,7 @@ its about dealing with a lot of things at the same time
 - True property: predicate that is true for all possible histories
 
 ## Some properties of interest in concurrent programming
-- safety: program cannot reach a bad state
+- [[safety property|safety]]: program cannot reach a bad state
 - liveness: program will eventually reach a desired state
 - partial correctness: if program terminates, it does so in a desirable final state
 - termination: all histories are finite

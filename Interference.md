@@ -1,0 +1,1 @@
+The result of two processes reading and writing shared variables in an unpredictable order and hence with unpredictable results

@@ -1,0 +1,1 @@
+A synchronization point that all processes must reach before any are allowed to proceed.

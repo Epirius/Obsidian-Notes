@@ -24,3 +24,6 @@ so you should minimize the parts of the code that need to be atomic
 -----
 ### Fine-grained atomic actions
 - implemented directly by the hardware on which a concurrent program executes
+
+#### Coarse-grained atomic actions
+- implemented by using a [[Protocol to protect critical sections]]

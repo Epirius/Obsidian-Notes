@@ -1,0 +1,1 @@
+A sequence of statements that must be executed with mutual exclusion with respect to critical sections in other processes that reference the same shared variables. Critical section protocols are used to implement coarse-grained atomic actions.

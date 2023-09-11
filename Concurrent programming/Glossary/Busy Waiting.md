@@ -1,0 +1,1 @@
+An implementation of synchronization in which a process repeatedly executes a loop waiting for a Boolean condition B to be true. This is often programmed as while (!B) skip;. When a process is busy waiting, it is also said to be spinning.

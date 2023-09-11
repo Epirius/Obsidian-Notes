@@ -1,0 +1,1 @@
+An atomic action that must delay until the state satisfied some Boolean condition B. This is programmed as (await (B) S;).

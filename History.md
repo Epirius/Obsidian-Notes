@@ -1,0 +1,1 @@
+The sequence of states, or actions, resulting from one executing of a program. Sometimes a history is also called a trace.

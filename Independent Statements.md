@@ -1,0 +1,1 @@
+Two statements in different processes that do not write into the same variables and that do not read variables written by the other. Independent statements will not interfere with each other if they are executed in parallel.
