@@ -1,3 +1,4 @@
+#greedy
 ```
 Input: I = { I1, I2, I3 ... }
 Output: a maximum set S ∈ I of pairwise non-overlapping intervals

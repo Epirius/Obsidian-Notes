@@ -3,6 +3,7 @@ as long as you are allowed to take another action, you take the action that look
 
 - [[Interval scheduling]]
 - [[Interval partitioning]]
+- [[Scheduling to minimize lateness]]
 
 
 
