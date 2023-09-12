@@ -1,0 +1,2 @@
+- need to explain why a solution has [[Mutual exclusion]] and  [[Deadlock|absence of deadlock]] 
+- try to change the solution so that it uses existing hardware level instructions
