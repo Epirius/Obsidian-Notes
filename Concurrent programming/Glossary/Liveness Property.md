@@ -1,0 +1,1 @@
+A property of a program that asserts that something good will eventually happen— namely, that the program eventually reaches a good state. Termination and eventual entry into a critical section are examples of liveness properties

@@ -1,0 +1,1 @@
+A variable that is used to protect a critical section. A lock is set when some process is executing in a critical section; otherwise it is clear.

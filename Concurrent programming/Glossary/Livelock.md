@@ -1,0 +1,1 @@
+A situation in which a process is spinning while waiting for a condition that will never become true. Livelock is the busy-waiting analog of deadlock.
