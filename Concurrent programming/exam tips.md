@@ -2,3 +2,4 @@
 - try to change the solution so that it uses existing hardware level instructions
 
 - the exam will most likely not ask us to write await statements, but it may ask us to interpret an await statement
+- more then half of the exam will be about semaphores
