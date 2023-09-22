@@ -1,6 +1,6 @@
 [[graph traversal]]
 [[Greedy algorithms]]
-[[divide and conquer]]
+[[Divide and Conquer]]
 [[dynamic programming]]
 
 
