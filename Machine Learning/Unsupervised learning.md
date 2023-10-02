@@ -6,3 +6,8 @@ this learning strategy is used in for example [[Clustering]] data points.
 Unsupervised learning can suffer from [[Overfitting]] if it is trained to much.
 
 #machine-learning 
+
+### Common tasks
+- dimensionality reduction
+- clustering
+- density estimation
