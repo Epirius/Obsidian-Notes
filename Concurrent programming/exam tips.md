@@ -6,3 +6,5 @@
 
 
 - may be questions about communicating sequential processes (CPS)
+
+- 30% of the exam is about javascript (promises)nmcl
