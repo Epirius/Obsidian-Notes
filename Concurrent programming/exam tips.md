@@ -3,3 +3,6 @@
 
 - the exam will most likely not ask us to write await statements, but it may ask us to interpret an await statement
 - more then half of the exam will be about semaphores
+
+
+- may be questions about communicating sequential processes (CPS)
