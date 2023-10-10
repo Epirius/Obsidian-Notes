@@ -3,5 +3,6 @@
 
 ## in js
 - a function defined as async can contain await statements
-	- await e: evaluates e to a [[promise]], and waits until the promise is resolved
-	- the resolved promise's value 
+	- `await e` evaluates e to a [[promise]], and waits until the promise is resolved
+	- the resolved promise's value is the value of the expression `await e`
+	- a rejected promise turns into an exception
