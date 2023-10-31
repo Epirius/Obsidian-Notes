@@ -8,3 +8,9 @@
 - may be questions about communicating sequential processes (CPS)
 
 - 30% of the exam is about javascript (promises)
+
+- event loop execution order
+	- setTimeOut
+	- setInterval
+		- if there already is an interval event in the queue, while the next interval is reached. the new event is ignored.
+		- but if you are currently executing the interval event, the next interval event will be added.
