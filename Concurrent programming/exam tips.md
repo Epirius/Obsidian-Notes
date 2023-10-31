@@ -14,3 +14,6 @@
 	- setInterval
 		- if there already is an interval event in the queue, while the next interval is reached. the new event is ignored.
 		- but if you are currently executing the interval event, the next interval event will be added.
+
+- one question about RPC / self study topics, all that are not marked with green tick on mitt uib
+- Reduction semantics (weird math notation)
