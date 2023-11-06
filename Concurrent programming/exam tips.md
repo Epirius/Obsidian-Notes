@@ -16,4 +16,4 @@
 		- but if you are currently executing the interval event, the next interval event will be added.
 
 - one question about RPC / self study topics, all that are not marked with green tick on mitt uib
-- Reduction semantics (weird math notation)
+- Reduction semantics (weird math notation) - 5 points out of 100
