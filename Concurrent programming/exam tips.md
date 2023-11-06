@@ -17,3 +17,4 @@
 
 - one question about RPC / self study topics, all that are not marked with green tick on mitt uib
 - Reduction semantics (weird math notation) - 5 points out of 100
+- one question about promise graph
