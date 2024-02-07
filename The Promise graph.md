@@ -1,2 +1,0 @@
-- the promise graph contains:
-	- a value node V for every value allocated site in the program
